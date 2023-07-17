@@ -1,0 +1,39 @@
+
+@mr.ktalkstech
+1 month ago (edited)
+Hello,
+
+Sure.
+
+1. Please first check if the username and the password  that you have in the Key vault is correct or not. Also check the server name and database name.
+
+2. If correct, please use the same credentials to connect to the server/db  using the SSMS. 
+
+3. If connected successfully, right click on the sever name in SSMS and click the properties option, under the properties menu go to the connection and see if the "Allow remote connections to the sever" checkbox is enabled or not. If not, please enable it and then give it a try. 
+
+I also assuming that, you have given the db_owner access to the user login as per the Part 2 video (environment setup)
+
+
+https://youtu.be/d5u8JJRmALY
+
+RAHUL\SQLEXPRESS
+
+AdventureWorksLT2017
+
+fWxSu5Xdy4whTbVwqPQwKT
+
+
+
+For each table name
+{
+    "errorCode": "ActionFailed",
+    "message": "Activity failed because an inner activity failed; Inner activity name: Stored procedure1, Error: Execution fail against sql server. Please contact SQL Server team if you need further support. Sql error number: 13807. Error Message: Content of directory on path 'https://rlbdatalakegen02.dfs.core.windows.net/gold/SalesLT/CustomerAddress/_delta_log/*.*' cannot be listed.",
+    "failureType": "UserError",
+    "target": "For each table name",
+    "details": ""
+
+
+
+rlbdatalakegen02
+
+https://rlbdatalakegen02.dfs.core.windows.net
